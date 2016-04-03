@@ -1,0 +1,66 @@
+const CLASSNAME_ICON = 'robin--icon'
+const CLASSNAME_STATUS = 'robin--status'
+const CLASSNAME_VOTE_STAY = 'robin--vote-class--continue'
+const CLASSNAME_VOTE_GROW = 'robin--vote-class--increase'
+const CLASSNAME_VOTE_NONE = 'robin--vote-class--novote'
+const CLASSNAME_VOTE_ABANDON = 'robin--vote-class--abandon'
+const CLASSNAME_STATUS_AWAY = 'robin--presence-class--away'
+const CLASSNAME_STATS_COUNT = 'robin-room-stats--count'
+const CLASSNAME_STATS_GROW = 'robin-room-stats--grow'
+const CLASSNAME_STATS_STAY = 'robin-room-stats--stay'
+const CLASSNAME_STATS_ABANDON = 'robin-room-stats--abandon'
+const CLASSNAME_STATS_AWAY = 'robin-room-stats--away'
+
+export const ClassNames = {
+  ICON: CLASSNAME_ICON,
+  STATUS: CLASSNAME_STATUS,
+  VOTE_STAY: CLASSNAME_VOTE_STAY,
+  VOTE_GROW: CLASSNAME_VOTE_GROW,
+  VOTE_NONE: CLASSNAME_VOTE_NONE,
+  VOTE_ABANDON: CLASSNAME_VOTE_ABANDON,
+  STATUS_AWAY: CLASSNAME_STATUS_AWAY,
+  STATS_COUNT: CLASSNAME_STATS_COUNT,
+  STATS_GROW: CLASSNAME_STATS_GROW,
+  STATS_STAY: CLASSNAME_STATS_STAY,
+  STATS_ABANDON: CLASSNAME_STATS_ABANDON,
+  STATS_AWAY: CLASSNAME_STATS_AWAY
+}
+
+const KEY_STATS_TOTAL = 'total'
+const KEY_STATS_AWAY = 'away'
+const KEY_STATS_STAY = 'stay'
+const KEY_STATS_GROW = 'grow'
+const KEY_STATS_NONE = 'none'
+const KEY_STATS_ABANDON = 'abandon'
+
+export const Keys = {
+  STATS_TOTAL: KEY_STATS_TOTAL,
+  STATS_AWAY: KEY_STATS_AWAY,
+  STATS_STAY: KEY_STATS_STAY,
+  STATS_GROW: KEY_STATS_GROW,
+  STATS_NONE: KEY_STATS_NONE,
+  STATS_ABANDON: KEY_STATS_ABANDON
+}
+
+const VALUE_VOTE_GROW = 'INCREASE'
+const VALUE_VOTE_STAY = 'CONTINUE'
+const VALUE_VOTE_ABANDON = 'ABANDON'
+
+const VALUE_KEY_GROW = 'GROW'
+const VALUE_KEY_STAY = 'STAY'
+const VALUE_KEY_ABANDON = 'ABANDON'
+
+export const Values = {
+  VOTE_GROW: VALUE_VOTE_GROW,
+  VOTE_STAY: VALUE_VOTE_STAY,
+  VOTE_ABANDON: VALUE_VOTE_ABANDON,
+  KEY_GROW: VALUE_KEY_GROW,
+  KEY_STAY: VALUE_KEY_STAY,
+  KEY_ABANDON: VALUE_KEY_ABANDON
+}
+
+export default {
+  ClassNames,
+  Keys,
+  Values
+}

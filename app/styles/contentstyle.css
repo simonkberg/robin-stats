@@ -1,0 +1,39 @@
+
+.text-vote-select {
+  background-color: #fff;
+}
+
+.robin-chat .robin-chat--stats-widget .robin-room-stats {
+  margin-bottom: 5px;
+}
+
+.robin-chat .robin-chat--stats-widget .robin-room-stats:last-child {
+  margin-bottom: 0;
+}
+
+.robin-room-stats .robin--status {
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #222222;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.robin-room-stats.robin--presence-class--away .robin--status {
+    font-style: italic;
+    color: #a5a4a4;
+}
+
+.robin-chat .robin-chat--auto-widget label {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 15px;
+}
+
+.robin-chat .robin-chat--auto-widget input[type=checkbox] {
+    margin-right: 5px;
+    width: 20px;
+}
